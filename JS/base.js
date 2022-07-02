@@ -1,4 +1,4 @@
-console.log ('hola')
+
 //! Datos en Js 
     //reglas o buenas practicas 
         // No iniciar con digitos 
@@ -12,24 +12,24 @@ console.log ('hola')
 //! Variables y Constatnte
       // Variable  =  Mutabilidad = VAR - LET
       // Constante = No Cambia  = CONST 
-let edadkoder = 25        
-var alturakoder = 185 //!Nos permite redefinir 
+// let edadkoder = 25        
+// var alturakoder = 185 //!Nos permite redefinir 
             
 
 // palabraReservada -> identificador -> operdadorAsignacion -> Valor
-console.log(edadkoder);
-console.log(alturakoder);     
+// console.log(edadkoder);
+// console.log(alturakoder);     
 //Terminologia 
               // Declaracion 
               // Asignacion o Definicion
               // Inicializacion
 
-              let Koder;
+            //   let Koder;
               
               
-              Koder = 'Jose';
+            //   Koder = 'Jose';
 
-              let koder2 = 'Sandra'
+            //   let koder2 = 'Sandra'
 
 //camelCase
 //PascalCase
@@ -95,158 +95,158 @@ console.log(alturakoder);
              //  Hace refencia a un valor nulo 
 
     // No Primitivos - reference Data type 
-             // Array --> 
-                // Colecciones de datos indexados 
-                     let myFirstArray = [1,2,3,4];
+            //  // Array --> 
+            //     // Colecciones de datos indexados 
+            //          let myFirstArray = [1,2,3,4];
 
-                     let myFirstArray = ['a', 2, true];
+            //          let myFirstArray = ['a', 2, true];
 
-                // Objects -> Objetos 
-                     let user ={firstname: 'Sebastian', last_name: 'Bastian'};
+            //     // Objects -> Objetos 
+            //          let user ={firstname: 'Sebastian', last_name: 'Bastian'};
                      
-                     console.log(user)
+            //          console.log(user)
 //! Typeof Operator 
 
-    let numerico = 11; 
-    let tect = 'esto es un texto';
-    console.log(typeof numerico);
-    console.log(typeof text);
-    console.log(typeof console);
+    // let numerico = 11; 
+    // let tect = 'esto es un texto';
+    // console.log(typeof numerico);
+    // console.log(typeof text);
+    // console.log(typeof console);
 
 
 //! Concatenacion de strings
   // Usar el operador de suma +
-     let primerTexto = 'Soy la primera parte';
-     let segundoTexto = 'y yo la segunda parte';
-     console.log(primerTexto + segundoTexto);
+    //  let primerTexto = 'Soy la primera parte';
+    //  let segundoTexto = 'y yo la segunda parte';
+    //  console.log(primerTexto + segundoTexto);
 
    // Templates Literals 
     // ``-> backtick
-        console.log(`Esto es un template literals ${primerNombre}`)  
+        // console.log(`Esto es un template literals ${primerNombre}`)  
 
 
 //! Formas de hacer output 
-        console.log('esto es un log');
-        console.warn('esto es una advertencia');   
-        console.error('esto es un error');  
-        console.group('20g');
-        console.groupEnd('20g');
-        console.time('g');
-        console.timeEnd('g');
-        alert('esto es una alerta');
-        // el console es un objeto que abarca varias operaciones 
+//         console.log('esto es un log');
+//         console.warn('esto es una advertencia');   
+//         console.error('esto es un error');  
+//         console.group('20g');
+//         console.groupEnd('20g');
+//         console.time('g');
+//         console.timeEnd('g');
+//         alert('esto es una alerta');
+//         // el console es un objeto que abarca varias operaciones 
 
-let data = prompt('Ingreso de datos');   
-console.log('esto es mi data');
-    window.console.log(`asdasfas`)
-   window.promt()
+// let data = prompt('Ingreso de datos');   
+// console.log('esto es mi data');
+//     window.console.log(`asdasfas`)
+//    window.promt()
         
         
 //! Operadores 
    //Aritmeticos - operaciones aritmeticas (numericas)
 
-   //suma 
-   +
-   //resta 
-   -
-   //multiplicacion 
-   *
-   //division 
-   /
-   //Modulo o Remainder
-   %
+//    //suma 
+//    +
+//    //resta 
+//    -
+//    //multiplicacion 
+//    *
+//    //division 
+//    /
+//    //Modulo o Remainder
+//    %
 
-   //Incremento - Increment
-   ++X
-   x++ 
-   // Decremento - Decrement
-   --x
-   x--
-   // Potencia - Potence
-   x**y
+//    //Incremento - Increment
+//    ++X
+//    x++ 
+//    // Decremento - Decrement
+//    --x
+//    x--
+//    // Potencia - Potence
+//    x**y
 
 
 //! Operadores de Asignacion 
     // = 
-    let = 2 --> asignar un valor 
+    // let = 2 --> asignar un valor 
     // +=
-    a += 1;
-    -> a = a + 1;
+    // a += 1;
+    // -> a = a + 1;
 
     // -= 
-    a -= 1;
-    -> a = a - 1;
+    // a -= 1;
+    // -> a = a - 1;
 
     // *=
-    a*= 2;
-    -> a = a * 2 
+    // a*= 2;
+    // -> a = a * 2 
 
     // /= 
-    a /= 2; 
-    ->a = a / 2; 
+    // a /= 2; 
+    // ->a = a / 2; 
 
     // %= 
-    a %= 2 
-    -> a = a % 2
+    // a %= 2 
+    // -> a = a % 2
 
 //! Operadores de Comparacion 
 
-    // == comparacion
-      let a = 1;
-      let b = 1; 
-      console.log(a == b); = True;
+ // == comparacion
+    //   let a = 1;
+    //   let b = 1; 
+    //   console.log(a == b); = True;
 
-    // === comparacion Estricta 
-    let a = 1;
-    let b = `1`; 
-       console.log(a === b); = False; // porque lo interpreta  como un string `1` tiene que ser tipo de mismo dato 
+ // === comparacion Estricta 
+    // let a = 1;
+    // let b = `1`; 
+    //    console.log(a === b); = False; // porque lo interpreta  como un string `1` tiene que ser tipo de mismo dato 
 
-    // / != Not Equal
-    let a = 1;
-    let b = 1; 
-    console.log(a!=b); = False 
+ // / != Not Equal
+    // let a = 1;
+    // let b = 1; 
+    // console.log(a!=b); = False 
     
-    // / != Not Equal Stricto 
-    let a = 1;
-    let b = `1`;
-    console.log(a!=b); = False // no es el mismo tipo de dato, b es un string 
+ // / != Not Equal Stricto 
+    // let a = 1;
+    // let b = `1`;
+    // console.log(a!=b); = False // no es el mismo tipo de dato, b es un string 
 
-    // > - Mayor que ... 
-    let a = 10;
-    let b = 9; 
-    console.log(a>b); = True 
+// > - Mayor que ... 
+    // let a = 10;
+    // let b = 9; 
+    // console.log(a>b); = True 
 
-    // < - Menor que ...
-    let a = 10;
-    let b = 9; 
-    console.log(a<b); = False
+// < - Menor que ...
+    // let a = 10;
+    // let b = 9; 
+    // console.log(a<b); = False
     
-    // >= - Mayor o Igual que ...
-    let a = 10;
-    let b = 9; 
-    console.log(a>=b); = True 
+// >= - Mayor o Igual que ...
+    // let a = 10;
+    // let b = 9; 
+    // console.log(a>=b); = True 
     
-    // <= - Menor o Igual que ...
-    let a = 10;
-    let b = 9; 
-    console.log(a<=b); = False
+ // <= - Menor o Igual que ...
+    // let a = 10;
+    // let b = 9; 
+    // console.log(a<=b); = False
 
 
 //! Operadores Logicos 
 
     // AND -> &&
-       true&&true = true 
-       false&&true = false
-       true&&false = false
+    //    true&&true = true 
+    //    false&&true = false
+    //    true&&false = false
 
-    // OR  -> ||
-       true || true = true
-       false|| true = true
-       true || false = false
-       false || false = false 
+// OR  -> ||
+    //    true || true = true
+    //    false|| true = true
+    //    true || false = false
+    //    false || false = false 
 
-    // NOT -> !
-       let x = 10 + 10 * 3; 
+ // NOT -> !
+    //    let x = 10 + 10 * 3; 
        
 
        
