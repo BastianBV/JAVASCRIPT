@@ -93,8 +93,8 @@
 
 
 
-//! ejercicio grupal
-// Ejercicio 1
+//? ejercicio grupal
+//! Ejercicio 1
 // Pedir el usuario un número entre 10 y 100
 // * Imprimir todos los números pares que existen entre 1 y ese número
 // * p.ej. 12 -> 2,4,6,8,10,12
@@ -109,7 +109,7 @@
 //     }
 // }
 
-//ejercicio 2
+//!ejercicio 2
 // Pedir al usaurio una oracion
 // Imprimir un string con todas las vocales
 // Imprimir un string con todas las consonantes
@@ -118,6 +118,34 @@
 // Consonantes -> hlmnd
 // Vocales -> oauo
 
-let text = parseInt(prompt("Ponga una oracion"))
+// let text = parseInt(prompt("Ponga una oracion"));
+// let minusculas= texto.toLowerCase().replace(""," ");
+// let mayusculas= texto.replace(/[aeiouAEIOU]/gi, '').replace(" ",'');
 
+// for(let i=0; i < texto.length; i++) {
+//     if(minusculas[i] === 'a' ||
+//        minusculas[i] === 'e' ||
+//        minusculas[i] === 'i' ||
+//        minusculas[i] === 'o' ||
+//        minusculas[i] === 'u')  {
+//         console.log(minusculas[i])
+//        }
+// }
 
+// for(let i=0; i < mayusculas.length; i++){
+//     console.log(mayusculas[i]);
+// }
+
+//!Ejercicio3
+// Pedir el usuario una palabra
+// Invertir esa palabra e imprimirla en consola
+//  p.ej. 'Hola' -> 'aloh'
+
+// let str = prompt("Ingrese una oración");
+// let strReverse = "";
+// console.log(str.length);
+
+// for(let i = str.length-1; i >=0; i--) {
+//     strReverse = strReverse + str;
+// }
+// console.group(strReverse);
