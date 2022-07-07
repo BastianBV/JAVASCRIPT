@@ -144,7 +144,6 @@
 // let str = prompt("Ingrese una oración");
 // let strReverse = "";
 // console.log(str.length);
-
 // for(let i = str.length-1; i >=0; i--) {
 //     strReverse = strReverse + str;
 // }
