@@ -145,7 +145,7 @@
 
 
 
-//! Hosting
+//! Hosting = se recomienda mandar las funciones arriba
 // console.log(test);
 // var test = 1;
 
@@ -159,4 +159,44 @@
 // console.log("a");
 // console.log(t());
 
+
+//! Mutabilidad de argumentos 
+//  function demoMutabilidadArg(a) {
+//    a = a + 20
+//    return a;
+//  }
+
+//  let a = 10; 
+
+//  console.log("a en global scope".a);
+
+//  console.log("a dentro de la funcion",demoMutabilidadArg(a));
+
+//  console.log(a);
+
+
+ //! Arrays y Objetos 
+ 
+
+//  let primerArray = ["texto", 123];
+//  let primerObj = {a: "hola"};
+
+//  fuction testNoPrimitive(obj) {
+//  return(abj.a = "mundo");
+
+//  }
+
+//  testNoPrimitive(primerObj);
+
+//  console.log(primerObj);
+
+
+// //! function
+
+// function funcionPrueba(a,b) {
+//    console.log(a,b);
+//    //~codigo a ejecutar cuando se llame la funcion
+// }
+
+// funcionPrueba(2, 3);
 
