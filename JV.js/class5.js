@@ -148,3 +148,23 @@
 //     strReverse = strReverse + str;
 // }
 // console.group(strReverse);
+
+
+
+
+// let palabra = prompt('dame una palabra:');
+// let reversa = "";
+//for(let index=palabra.length-1; index>=0; index--)
+// {
+//reversa += palabra[index] // es la accion  que va a realizar
+// }
+// console.log(reversa) //imprime en consola el resultado
+
+// palabra=nuevo
+// reversa =""
+// index=5-1
+// index=4 (4>0=true); (reversa=""+"o");
+// index=3 (3>0=true); (reversa="o"+"v");
+// index=2 (2>0=true); (reversa="ov"+"e");
+// index=1 (1>0=true); (reversa="ove"+"u");
+// index=0 (0>0=true); (reversa="oveu"+"n");

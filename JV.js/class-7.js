@@ -73,9 +73,10 @@
     // No necesitamos  de la palabra reservada "functions"
     // No en todos los casos es necesaria la palabra reservada return para  regresar 
 
-    const arrowFunction = (param1, param2) => {
+    /* const arrowFunction = (param1, param2) => {
         console.log(param1, param2);
         return;
-    };
+    }; */
 
+    
     
