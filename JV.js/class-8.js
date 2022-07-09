@@ -56,6 +56,9 @@ console.log(koders[5]); */
 
  console.log(koders); */
 
+
+//todo ARRAY (EVERY) 
+//* Prueba si todos los elementos pasan la función de prueba dada
 function checkAdult(age) {
     return age >= 18;
 }
