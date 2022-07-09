@@ -44,6 +44,7 @@
 //~ else {
 //~     alert(numA, "no es un numero valido")
 //~ }
+
 //~ ejercicio2();
 //~ function ejercicio2(){
 
@@ -70,12 +71,83 @@
 
 
 //! Funciones flechas o Arrow Functions 
-    // No necesitamos  de la palabra reservada "functions"
-    // No en todos los casos es necesaria la palabra reservada return para  regresar 
+// No necesitamos  de la palabra reservada "functions"
+// No en todos los casos es necesaria la palabra reservada return para  regresar 
 
-    const arrowFunction = (param1, param2) => {
-        console.log(param1, param2);
-        return;
-    };
+/*  const arrowFunction = (param1, param2) => {
+     console.log(param1, param2);
+     return;
+ };
+*/
+//^ La Funcion flecha se conforma por un CONST - NOMBRE DE CONST - "(parametros)"- LA FUNCION FLECHA "=>" - "{CODIGO}"
 
-    
+
+//* Coonsideraciones de sintaxis 
+
+/* const arrowFunction = (p1,p2) => console.log(p1, p2);
+    return; */
+
+
+
+
+
+/* let suma = 0
+let numA = parseInt(prompt("ingresa un numero entre 1 y 100"));
+function ejercicio2() {
+    if (numA <= 100 && numA >= 1) {
+       for (let contador = 1; contador <= numA; contador++);
+       suma = suma + contador;
+        console.log(suma);
+  }
+     else {
+       alert(numA, "no es un numero valido") }
+} 
+ejercicio2();
+ejercicio2();{
+alert(`La suma de todo los numeros entre el 1 y el  ${numA} es igual a: ${suma}`);
+
+} */
+
+
+/*     const areaTriangulo = (base, altura ) => {
+       return (parseInt(base) * parseInt(altura)) / 2;
+    }
+   
+    console.log(`El area del triangulo es : ${areaTriangulo(10,10)}`); */
+
+
+/*  Practica Grupal 2
+ Arrow function
+ Pedir al usuario una cadena de texto
+ Declarar una función flecha para
+ Pasarle la oración del usuario como parámetro de la función declarada
+ verificar si esa oración es un palíndromo
+ Retornar el resultado y mostrarlo al usuario (usando log o aler)
+ Por ejemplo:
+ // isPalindrome('hola') -> No es un palíndromo
+ // isPalindrome('oso') -> SI es un palindromo
+  
+    Podemos probar con las siguientes ->
+    anita lava la tina -> Palindromo
+    oso -> Palindromo
+    seres -> Palindromo
+  
+    Hint / Pista
+     Quitamos los espacios */
+
+let text = prompt("Ingesa un texto");
+
+const palindromoChecker = (cadena) => {
+    const cadenaReversed = cadena.split("").reversed().join("");
+
+    return cadenaReversed === cadena ? "es palidromo" : "no es palidromo";
+}
+console.log(palindromoChecker(text))
+
+
+
+
+
+
+
+
