@@ -189,7 +189,24 @@ console.log(koders[5]); */
 */
 
 
-let citys = ['mexico', 'RIo', 'Los Angeles', 'esTAMBUL'];
+// let citys = ['mexico', 'RIo', 'Los Angeles', 'esTAMBUL'];
 
- cities2 = cities.map(city => city[0].toUpperCase()+city.slice(1,city.length).toLowerCase());
- console.log(cities);
+//  cities2 = cities.map(city => city[0].toUpperCase()+city.slice(1,city.length).toLowerCase());
+//  console.log(cities);
+
+//todo ---3. Filter 
+//*3.1 Crea un nuevo array filtrado
+//*3.2 Recibe un callback function con los argumentos definidos 
+    //*3.2.1 Current Value 
+    //*3.2.2 Index
+    //*3.2.3 Array Objetivo
+
+//*3.3 El filtrado lo hacemos dentro de la funcion callback
+//*3.4 Crea un nuevo arrat con las modificacipoes indicadas 
+//*3.6 La funcion callback debe tener un return
+
+let soloPares = newArr.filter((currentValue, index, copiaArrOriginal) => {
+    if (currentValue % 2 === 0) {
+        return currentValue;
+    }
+})
