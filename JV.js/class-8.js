@@ -290,18 +290,30 @@ console.log(koders[5]); */
 // * additionMultiArr(  [ [1,2,3] , [1,3,2] , [3,2,1] ] )
 // * -> 18
 
-let arrays =  [ [1,2,3] , [1,3,2] , [3,2,1] ]
+// let arrays =  [ [1,2,3] , [1,3,2] , [3,2,1] ]
 
-const sumarArray = (imput) => {
-    let arrayAccum = 0
-    InputDeviceInfo.forEach(item => {
-        let result = item.reduce((accum, cv) => {
-            accum += cv
-            return accum
-        },0)
-        arrayAccum += result
-    }); return arrayAccum
-}
+// const sumarArray = (imput) => {
+//     let arrayAccum = 0
+//     InputDeviceInfo.forEach(item => {
+//         let result = item.reduce((accum, cv) => {
+//             accum += cv
+//             return accum
+//         },0)
+//         arrayAccum += result
+//     }); return arrayAccum
+// }
 
-sumarArray(arrays)
-console.log(sumarArray(arrays))
+// sumarArray(arrays)
+// console.log(sumarArray(arrays))
+
+
+//!Practica
+// función con .reduce()
+// * Dado un array de numeros, obtener la suma de solo los elementos positivos
+// * addAllPositives( [ 1, -4, 12, 0, -3, 29, -150] )
+// * -> 42
+
+
+let numeros = [ 1, -4, 12, 0, -3, 29, -150]
+
+
