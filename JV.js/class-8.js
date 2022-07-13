@@ -160,7 +160,7 @@ console.log(koders[5]); */
 // })
 
 
-//todo ----2. MAP 
+//todo ----2. MAP ---> (Sirve para hacer una nueva array)
     //* 2.1 Crea un nuevo array transformado
     //* 2.2 Recibe un callback function con los argumentos definidos 
     //* 2.3 Crea una nueva array con las modificaciones indicadas
@@ -194,7 +194,7 @@ console.log(koders[5]); */
 //  cities2 = cities.map(city => city[0].toUpperCase()+city.slice(1,city.length).toLowerCase());
 //  console.log(cities);
 
-//todo ---3. Filter 
+//todo ---3. Filter ---> (Sirve para filtrar los elementos que planteamos)
 //*3.1 Crea un nuevo array filtrado
 //*3.2 Recibe un callback function con los argumentos definidos 
     //*3.2.1 Current Value 
@@ -205,8 +205,103 @@ console.log(koders[5]); */
 //*3.4 Crea un nuevo arrat con las modificacipoes indicadas 
 //*3.6 La funcion callback debe tener un return
 
-let soloPares = newArr.filter((currentValue, index, copiaArrOriginal) => {
-    if (currentValue % 2 === 0) {
-        return currentValue;
-    }
-})
+// let soloPares = newArr.filter((currentValue, index, copiaArrOriginal) => {
+//     if (currentValue % 2 === 0) {
+//         return currentValue;
+//     }
+// })
+
+
+//todo ----4 Reduce 
+    //* Recibe dos argumento un callback fun y un initiaValue
+    //* Su callback recibe 4 paramentros predefinidos 
+    //~ Total o Previos Value o Acumulador Cv, Index, Copia Array
+//!  ejemplo1
+    // let arr = [1, 2, 3, 4, 5]
+
+    // let result = arr.reduce((acumulador, currentValue, index, array) => {
+    //         acumulador += currentValue 
+    //         return acumulador
+    // } , 0)
+    // console.log(result)
+
+//! ejemplo2
+    // const koders = ['kelly', 'sebas','Adrian']
+
+    // result = koders.reduce((acc, cv) => {
+    //   acc.push(cv[0]);
+    //   return acc;
+    //  }, []);
+
+
+    //  result2 = koders.reduce((acc, cv) => {
+    //    acc += `${cv} `;
+    //    return acc;
+    //   }, '');
+     
+
+    // console.log(result)
+    // console.log(result2)
+
+
+    //! Practica 12/07/22
+
+ // Función que reciba un array de nombre y esta debe devolver un string con las iniciales de los nombre
+ 
+// getInitial(['Ferdinand','Jose','Maria','Dora']) -> FJMD   
+
+// const koders = ['Ferdinand', 'Jose','Maria', 'Dora']
+
+// result = koders.reduce((acc, cv) => {
+//     acc += cv[0];
+//     return acc;
+// }, "");
+
+// console.log(result);
+
+
+
+
+//todo Extra -> Multidimensional Arrays --> ( Es un Array que contiene un Array)
+
+// const multi = [[1,2,3], ['s', 'f'], 'string']
+// console.log(typeof multi)
+
+// multi.forEach((cv) => {
+//     if(cv instanceof Array){
+//         cv.forEach((innerValue) => {
+//             console.log(innerValue)
+//         })
+//     } else {
+//         console.log(innerValue)
+//     } 
+// cv.forEach((innerValue) => {
+//     console.log(innerValue);
+// })
+// })
+
+
+
+
+//!Practica
+//* Dado una arreglo compuesto por arreglos,
+// * crea una función que calcule la suma de los arreglos
+// *
+// * additionMultiArr(  [ [1,2,3] , [1,3,2] , [3,2,1] ] )
+// * -> 18
+
+let arrays =  [ [1,2,3] , [1,3,2] , [3,2,1] ]
+
+const sumarArray = (imput) => {
+    let arrayAccum = 0
+    InputDeviceInfo.forEach(item => {
+        let result = item.reduce((accum, cv) => {
+            accum += cv
+            return accum
+        },0)
+        arrayAccum += result
+    }); return arrayAccum
+}
+
+sumarArray(arrays)
+console.log(sumarArray(arrays))

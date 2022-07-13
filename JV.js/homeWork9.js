@@ -88,7 +88,7 @@
 
 
 
-// let capitalize = ['méxicO', 'RIo', 'Los AngelEs ', 'esTAMBUL']
+// let capitalize = ['méxicO', 'RIo', 'Los AngelEs', 'esTAMBUL']
 
 // let arr = capitalize.map((cv, index, arr) => {
 //     words = cv.substring(0).toLowerCase()
@@ -96,8 +96,6 @@
 //     return result;
 
 // });
-
-// console.log(arr);
 
 
 //! Tarea 3
@@ -110,8 +108,20 @@
 
 
 
-function onlyNamesVowels(names) {
-    var result = names.filter(name => /^[aeiou]/i.test(name));
-    console.log(result);
-}
-onlyNamesVowels(['jorge', 'ana', 'ivan', 'sergio', 'oscar']); 
+// let nombres = ['jorge', 'ana', 'ivan', 'sergio', 'oscar']
+
+// let vocales = nombres 
+
+// .filter((str) => {
+//     if (str[0] === 'a' ||
+//     str[0] === 'e' ||
+//     str[0] === 'i' ||
+//     str[0] === 'o' ||
+//     str[0] === 'u'){
+//         return str;
+//     }
+// }).map((str)=> {
+//     return(str[0].toUpperCase() + str.slice(1).toLocaleLowerCase());
+
+// })
+// console.log(vocales);
