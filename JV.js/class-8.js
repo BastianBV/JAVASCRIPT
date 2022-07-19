@@ -314,6 +314,16 @@ console.log(koders[5]); */
 // * -> 42
 
 
-let numeros = [ 1, -4, 12, 0, -3, 29, -150]
+// const addAllPositives = (arrReduce) => {
+//     let totalPositive = 0 
+//     let reduceResult = arrReduce.reduce((acc, cv) => {
+//         if (cv > 0) {
+//             acc += cv
+//         }
+//         return acc
+//     }, 0)
+//     return reduceResult
+// }
+// console.log(addAllPositives([1, -4, 12, 0, -3, 29, -150 ]));
 
 
