@@ -436,75 +436,75 @@
 // Buscar las coincidencias en los campos -> "name" "username" "email" 
 // ! Paso a paso para su uso 
     // ? Instanciamos nuestro objeto
-    const xRe = new XMLHttpRequest()
+    // const xRe = new XMLHttpRequest()
     // console.log(xRe)
-    let users = [];
+    // let users = [];
     // ? Definir un callback en nuestro evento onload 
-    xRe.onload = (data) => {
-        console.log(data)
-        if (data.target.readyState === 4)   {
-            if (
-                data.target.status >= 200 ||
-                data.target.status <= 399 
-                ){
-                // console.log(data.target.responseText)
-                let result = JSON.parse(data.target.responseText)
-                console.log(result)
-                users = result;
-            }
-            else if (data.target.status === 400)    {
-                console.log('sucedio un error')
-            }
-        }
-    } 
-    console.log(users)
-    //? Abrir y setear nuestra peticion 
-    //? request.open(<Metodo htto>, <Direccion objetivo>)
+//     xRe.onload = (data) => {
+//         console.log(data)
+//         if (data.target.readyState === 4)   {
+//             if (
+//                 data.target.status >= 200 ||
+//                 data.target.status <= 399 
+//                 ){
+//                 // console.log(data.target.responseText)
+//                 let result = JSON.parse(data.target.responseText)
+//                 console.log(result)
+//                 users = result;
+//             }
+//             else if (data.target.status === 400)    {
+//                 console.log('sucedio un error')
+//             }
+//         }
+//     } 
+//     console.log(users)
+//     //? Abrir y setear nuestra peticion 
+//     //? request.open(<Metodo htto>, <Direccion objetivo>)
 
-    xRe.open("GET", "https://dummyjson.com/users", false)
-    // console.log(xRe)
+//     xRe.open("GET", "https://dummyjson.com/users", false)
+//     // console.log(xRe)
 
-    //? Enviar nuestra peticion 
-    xRe.send()
-
-
+//     //? Enviar nuestra peticion 
+//     xRe.send()
 
 
 
-const filterUSers = (str) => {
-  let strF = str.toLowerCase()
-  let usuariosFiltrados = users.users.filter((user)=> {
 
-      if(
-          user.firstName.toLocaleLowerCase().match(strF) ||
-          user.username.toLocaleLowerCase().match(strF) ||
-          user.email.toLocaleLowerCase().match(strF)
-          ) {
-          return user
-      }
 
-  })
+// const filterUSers = (str) => {
+//   let strF = str.toLowerCase()
+//   let usuariosFiltrados = users.users.filter((user)=> {
 
-  return usuariosFiltrados
-}
+//       if(
+//           user.firstName.toLocaleLowerCase().match(strF) ||
+//           user.username.toLocaleLowerCase().match(strF) ||
+//           user.email.toLocaleLowerCase().match(strF)
+//           ) {
+//           return user
+//       }
 
-// ? Se hace la construccion de la tabla en HTML con la info del Array original//
+//   })
 
-let tableBody = document.querySelector("#table_body")
+//   return usuariosFiltrados
+// }
 
-let tableInfo = users.users.reduce((ac,cv, i)=>{
-cv = `
-<tr>
-<th scope="row">${users.users[i].id}</th>
-<td>${users.users[i].firstName}</td>
-<td>${users.users[i].username}</td>
-<td>${users.users[i].email}</td>
-</tr>`
-console.log(ac)
-return ac+cv
-},"");
+// // ? Se hace la construccion de la tabla en HTML con la info del Array original//
 
-tableBody.innerHTML = tableInfo
+// let tableBody = document.querySelector("#table_body")
+
+// let tableInfo = users.users.reduce((ac,cv, i)=>{
+// cv = `
+// <tr>
+// <th scope="row">${users.users[i].id}</th>
+// <td>${users.users[i].firstName}</td>
+// <td>${users.users[i].username}</td>
+// <td>${users.users[i].email}</td>
+// </tr>`
+// console.log(ac)
+// return ac+cv
+// },"");
+
+// tableBody.innerHTML = tableInfo
 
 
 
@@ -513,57 +513,119 @@ tableBody.innerHTML = tableInfo
 con el valor del mismo y hacerle console.log() */
 
 // ? Tomando elemento input
-let input = document.querySelector('.input_text')
+// let input = document.querySelector('.input_text')
 
 // ? Tomando elemento boton "buscar"
-let findInput = document.querySelector('#find_input')
+// let findInput = document.querySelector('#find_input')
 
 
 // ? Agregando evento "input" al boton para ejecutar el filtrado cuando se detono el mismo
-findInput.addEventListener('input', () =>{
-  let strToFilter = input.value
-  console.log(strToFilter)
+// findInput.addEventListener('input', () =>{
+//   let strToFilter = input.value
+//   console.log(strToFilter)
 
 
     // ? Ejecutando el filtrado
-   let result = filterUSers(strToFilter)
+//    let result = filterUSers(strToFilter)
 
 
 
     // ? Imprimiendo el resultado en consola 
-   console.log(result)
+//    console.log(result)
 
 
     // ? Con esta funcion se reconstruye la tabla con el filtrado de texto   
-   let tableInfofiltered = result.reduce((ac,cv, i)=>{
-    cv = `
-    <tr>
-    <th scope="row">${result[i].id}</th>
-    <td>${result[i].firstName}</td>
-    <td>${result[i].username}</td>
-    <td>${result[i].email}</td>
-    </tr>`
-    console.log(ac)
-    return ac+cv
-    },"");
-    tableBody.innerHTML = tableInfofiltered
-})
+//    let tableInfofiltered = result.reduce((ac,cv, i)=>{
+//     cv = `
+//     <tr>
+//     <th scope="row">${result[i].id}</th>
+//     <td>${result[i].firstName}</td>
+//     <td>${result[i].username}</td>
+//     <td>${result[i].email}</td>
+//     </tr>`
+//     console.log(ac)
+//     return ac+cv
+//     },"");
+//     tableBody.innerHTML = tableInfofiltered
+// })
 
 
-function AJAX () {
-    const http = new XMLHttpRequest ();
-    const url = `http://127.0.0.1:5501/JV.js/index2.html`
+// function AJAX () {
+//     const http = new XMLHttpRequest ();
+//     const url = `http://127.0.0.1:5501/JV.js/index2.html`
 
-    http.onreadystatechange = function () {
-        if(this.readyState ==4 && this.status == 200){
-            console.log(this.responseText);
-            document.getElementById('response').innerHTML = this.responseText
-        }
+//     http.onreadystatechange = function () {
+//         if(this.readyState == 4 && this.status == 200){
+//             console.log(this.responseText);
+//             document.getElementById('response').innerHTML = this.responseText
+//         }
+//     }
+
+//     http.open('GET', url);
+//     http.send();
+// }
+// document.getElementById('boton').addEventListener('click', function() {
+//     AJAX();
+// })
+
+//todo CREANDO UN REQUEST 
+
+// 1 se crea una nueva y se almacena en una variable 
+
+// const httpRequest = new XMLHttpRequest() //esto es un Request
+
+// console.log(httpRequest) // Hacemos un cosonsole.log para verificar que este bien
+
+// 2 Definir nuestro metodo onload 
+// let result = []
+// httpRequest.onload = (e) => {
+//     // console.log(e)
+//     result = JSON.parse(e.target.responseText)
+// }
+
+// httpRequest.open('GET', 'url', false)
+
+// httpRequest.send();
+
+
+// Crear un nuevo archivo HTML se llame POST.html
+// Meter un Card Grid desde bootstrap 
+// Ir a Doomy y tomar  post 
+// const Post = (url) => {
+//     const http = new XMLHttpRequest ();
+//     // const url = `http://127.0.0.1:5501/JV.js/index2.html`
+//     let result = []
+//     http.onload = (data)=> {
+//         console.log(data.target.responseText)
+//         result = JSON.parse(data.target.responseText)
+//     }
+//     http.open('GET',url, false );
+   
+//     http.send();
+
+//     return result
+// }
+// let postDummy = Post (`https://dummyjson.com/posts`)
+// postDummy = postDummy.Post
+//// https://dummyjson.com/posts
+
+
+//! Crear un Usuario con AJAX 
+
+const createUser = (user)  => {
+    const httpRequest = new XMLHttpRequest ();
+    httpRequest.onload = (e) => {
+        console.log(e.target.responseText);
     }
+    httpRequest.open('POST', `https://kodemia-js-default-rtdb.firebaseio.com/`, false);
 
-    http.open('GET', url);
-    http.send();
+    let userJson = JSON.stringify(user);
+    httpRequest.send(userJson);
+
+
 }
-document.getElementById('boton').addEventListener('click', function() {
-    AJAX();
-})
+
+const userCreate = {
+    firstName: 'Fer',
+    lastName: 'mar'
+}
