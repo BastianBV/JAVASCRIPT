@@ -612,20 +612,149 @@ con el valor del mismo y hacerle console.log() */
 
 //! Crear un Usuario con AJAX 
 
-const createUser = (user)  => {
-    const httpRequest = new XMLHttpRequest ();
-    httpRequest.onload = (e) => {
-        console.log(e.target.responseText);
-    }
-    httpRequest.open('POST', `https://kodemia-js-default-rtdb.firebaseio.com/`, false);
+// const createUser = (user)  => {
+//     const httpRequest = new XMLHttpRequest ()
+//     httpRequest.onload = (e) => {
+//         console.log(e.target.responseText)
+//     }
+//     httpRequest.open("POST", 'https://kodemia-20g-js-default-rtdb.firebaseio.com/.json', false)
 
-    let userJson = JSON.stringify(user);
-    httpRequest.send(userJson);
+//     let userJson = JSON.stringify(user)
+//     httpRequest.send(userJson)
 
 
-}
+// }
 
-const userCreate = {
-    firstName: 'Fer',
-    lastName: 'mar'
-}
+// const userCreate = {
+//     firstName: 'Fer',
+//     lastName: 'mar'
+// }
+// createUser(userCreate)
+// ! Crear un usario con AJAX 
+
+//~ const createUser = (user) => {
+//~     const httRequest = new XMLHttpRequest()
+
+//~     httRequest.onload = (e) => {
+//~         console.log(e.target.responseText)
+//~     }
+
+//~     httRequest.open("POST", 'https://kodemia-g20-default-rtdb.firebaseio.com/koders.json', false)
+
+//~     let userJson = JSON.stringify(user)
+
+//~     httRequest.send(userJson)
+//~ }
+
+
+//~ const userToCreate = {
+//~    firstName: "Sebastian",
+//~     lastName: "V."
+//~ }
+
+//~ createUser(userToCreate)
+
+// En su propio BD 
+// Crear uns subdirectorio llamada "post" 
+// Y este crear al menos 10 post 
+// con la siguiente estructura -> titulo - Body - date
+
+// const Post = (posts) => {
+//     const httpRequest = new XMLHttpRequest()
+//     httpRequest.onload = (e) => {
+//         console.log(e.target.responseText);
+//     }
+//     httpRequest.open("POST", 'https://kodemia-20g-js-default-rtdb.firebaseio.com/.json', false)
+//     let postsJson = JSON.stringify(posts)
+//     httpRequest.send(postsJson) 
+// }
+
+// const createPost = {
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22',
+//     titulo: 'Titulo',
+//     body: 'Informacion',
+//     date:'27-07-22'
+// }
+// Post(createPost)
+
+//todo-- UPDATE DATA   - PUT ( actualiza la data )
+
+// const updateData = (data) => {
+//     const httpRequest = new XMLHttpRequest
+
+//     httpRequest.onload = (e) => {
+//         console.log (e.target.responseText)
+//     }
+//     httpRequest.open('PUT','https://kodemia-20g-js-default-rtdb.firebaseio.com/-N81O9TCMGAm1CF8FT2D.json', false);
+//     httpRequest.send(JSON.stringify(data))
+// }
+
+// const newData = {
+//     firstName : 'Bastian',
+//     lastName : 'V.'
+// }
+// updateData(newData)
+
+//TODO ---- PATCH - Update Parcial
+
+// const updateData = (data) => {
+//     const httpRequest = new XMLHttpRequest
+
+//     httpRequest.onload = (e) => {
+//         console.log (e.target.responseText)
+//     }
+//     httpRequest.open('PATCH','https://kodemia-20g-js-default-rtdb.firebaseio.com/-N81O9TCMGAm1CF8FT2D.json', false);
+//     httpRequest.send(JSON.stringify(data))
+// }
+
+// const newData = {
+//     firstName : 'Bastian',
+//     lastName : 'B.V.'
+// }
+// updateData(newData)
+
+
+//TODO --- DELETE  - Delete Data
+
+// const deleteData = (data) => {
+//     const httpRequest = new XMLHttpRequest
+
+//     httpRequest.onload = (e) => {
+//         console.log (e.target.responseText)
+//     }
+//     httpRequest.open('DELETE','https://kodemia-20g-js-default-rtdb.firebaseio.com/-N81O9TCMGAm1CF8FT2D.json', false);
+//     httpRequest.send()
+// }
+
+// const newData = {
+//     firstName : 'Bastian',
+   
+// }
+// deleteData(newData)
+
