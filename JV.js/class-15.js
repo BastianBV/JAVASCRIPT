@@ -86,351 +86,351 @@
 
 
 
-    // let users = [
-    //     {
-    //       "id": 1,
-    //       "name": "Brad Graham",
-    //       "username": "Bret",
-    //       "email": "Sincere@april.biz",
-    //       "address": {
-    //         "street": "Kulas Light",
-    //         "suite": "Apt. 556",
-    //         "city": "Gwenborough",
-    //         "zipcode": "92998-3874",
-    //         "geo": {
-    //           "lat": "-37.3159",
-    //           "lng": "81.1496"
-    //         }
-    //       },
-    //       "phone": "1-770-736-8031 x56442",
-    //       "website": "hildegard.org",
-    //       "company": {
-    //         "name": "Romaguera-Crona",
-    //         "catchPhrase": "Multi-layered client-server neural-net",
-    //         "bs": "harness real-time e-markets"
-    //       }
-    //     },
-    //     {
-    //       "id": 2,
-    //       "name": "Brad fox",
-    //       "username": "Bret",
-    //       "email": "Sincere@april.biz",
-    //       "address": {
-    //         "street": "Kulas Light",
-    //         "suite": "Apt. 556",
-    //         "city": "Gwenborough",
-    //         "zipcode": "92998-3874",
-    //         "geo": {
-    //           "lat": "-37.3159",
-    //           "lng": "81.1496"
-    //         }
-    //       },
-    //       "phone": "1-770-736-8031 x56442",
-    //       "website": "hildegard.org",
-    //       "company": {
-    //         "name": "Romaguera-Crona",
-    //         "catchPhrase": "Multi-layered client-server neural-net",
-    //         "bs": "harness real-time e-markets"
-    //       }
-    //     },
-    //     {
-    //       "id": 3,
-    //       "name": "Ervin Howell",
-    //       "username": "Antonette",
-    //       "email": "Shanna@melissa.tv",
-    //       "address": {
-    //         "street": "Victor Plains",
-    //         "suite": "Suite 879",
-    //         "city": "Wisokyburgh",
-    //         "zipcode": "90566-7771",
-    //         "geo": {
-    //           "lat": "-43.9509",
-    //           "lng": "-34.4618"
-    //         }
-    //       },
-    //       "phone": "010-692-6593 x09125",
-    //       "website": "anastasia.net",
-    //       "company": {
-    //         "name": "Deckow-Crist",
-    //         "catchPhrase": "Proactive didactic contingency",
-    //         "bs": "synergize scalable supply-chains"
-    //       }
-    //     },
-    //     {
-    //       "id": 4,
-    //       "name": "Clementine Bauch",
-    //       "username": "Samantha",
-    //       "email": "Nathan@yesenia.net",
-    //       "address": {
-    //         "street": "Douglas Extension",
-    //         "suite": "Suite 847",
-    //         "city": "McKenziehaven",
-    //         "zipcode": "59590-4157",
-    //         "geo": {
-    //           "lat": "-68.6102",
-    //           "lng": "-47.0653"
-    //         }
-    //       },
-    //       "phone": "1-463-123-4447",
-    //       "website": "ramiro.info",
-    //       "company": {
-    //         "name": "Romaguera-Jacobson",
-    //         "catchPhrase": "Face to face bifurcated interface",
-    //         "bs": "e-enable strategic applications"
-    //       }
-    //     },
-    //     {
-    //       "id": 5,
-    //       "name": "Patricia Lebsack",
-    //       "username": "Karianne",
-    //       "email": "Julianne.OConner@kory.org",
-    //       "address": {
-    //         "street": "Hoeger Mall",
-    //         "suite": "Apt. 692",
-    //         "city": "South Elvis",
-    //         "zipcode": "53919-4257",
-    //         "geo": {
-    //           "lat": "29.4572",
-    //           "lng": "-164.2990"
-    //         }
-    //       },
-    //       "phone": "493-170-9623 x156",
-    //       "website": "kale.biz",
-    //       "company": {
-    //         "name": "Robel-Corkery",
-    //         "catchPhrase": "Multi-tiered zero tolerance productivity",
-    //         "bs": "transition cutting-edge web services"
-    //       }
-    //     },
-    //     {
-    //       "id": 6,
-    //       "name": "Patricia Jones",
-    //       "username": "Karianne",
-    //       "email": "Julianne.OConner@kory.org",
-    //       "address": {
-    //         "street": "Hoeger Mall",
-    //         "suite": "Apt. 692",
-    //         "city": "South Elvis",
-    //         "zipcode": "53919-4257",
-    //         "geo": {
-    //           "lat": "29.4572",
-    //           "lng": "-164.2990"
-    //         }
-    //       },
-    //       "phone": "493-170-9623 x156",
-    //       "website": "kale.biz",
-    //       "company": {
-    //         "name": "Robel-Corkery",
-    //         "catchPhrase": "Multi-tiered zero tolerance productivity",
-    //         "bs": "transition cutting-edge web services"
-    //       }
-    //     },
-    //     {
-    //       "id": 7,
-    //       "name": "Chelsey Dietrich",
-    //       "username": "Kamren",
-    //       "email": "Lucio_Hettinger@annie.ca",
-    //       "address": {
-    //         "street": "Skiles Walks",
-    //         "suite": "Suite 351",
-    //         "city": "Roscoeview",
-    //         "zipcode": "33263",
-    //         "geo": {
-    //           "lat": "-31.8129",
-    //           "lng": "62.5342"
-    //         }
-    //       },
-    //       "phone": "(254)954-1289",
-    //       "website": "demarco.info",
-    //       "company": {
-    //         "name": "Keebler LLC",
-    //         "catchPhrase": "User-centric fault-tolerant solution",
-    //         "bs": "revolutionize end-to-end systems"
-    //       }
-    //     },
-    //     {
-    //       "id": 8,
-    //       "name": "Mrs. Dennis Schulist",
-    //       "username": "Leopoldo_Corkery",
-    //       "email": "Karley_Dach@jasper.info",
-    //       "address": {
-    //         "street": "Norberto Crossing",
-    //         "suite": "Apt. 950",
-    //         "city": "South Christy",
-    //         "zipcode": "23505-1337",
-    //         "geo": {
-    //           "lat": "-71.4197",
-    //           "lng": "71.7478"
-    //         }
-    //       },
-    //       "phone": "1-477-935-8478 x6430",
-    //       "website": "ola.org",
-    //       "company": {
-    //         "name": "Considine-Lockman",
-    //         "catchPhrase": "Synchronised bottom-line interface",
-    //         "bs": "e-enable innovative applications"
-    //       }
-    //     },
-    //     {
-    //       "id": 9,
-    //       "name": "Kurtis Weissnat",
-    //       "username": "Isaac.Skiles",
-    //       "email": "Telly.Hoeger@billy.biz",
-    //       "address": {
-    //         "street": "Rex Trail",
-    //         "suite": "Suite 280",
-    //         "city": "Howemouth",
-    //         "zipcode": "58804-1099",
-    //         "geo": {
-    //           "lat": "24.8918",
-    //           "lng": "21.8984"
-    //         }
-    //       },
-    //       "phone": "210.067.6132",
-    //       "website": "elvis.io",
-    //       "company": {
-    //         "name": "Johns Group",
-    //         "catchPhrase": "Configurable multimedia task-force",
-    //         "bs": "generate enterprise e-tailers"
-    //       }
-    //     },
-    //     {
-    //       "id": 10,
-    //       "name": "Nicholas Runolfsdottir V",
-    //       "username": "Maxime_Nienow",
-    //       "email": "Sherwood@rosamond.me",
-    //       "address": {
-    //         "street": "Ellsworth Summit",
-    //         "suite": "Suite 729",
-    //         "city": "Aliyaview",
-    //         "zipcode": "45169",
-    //         "geo": {
-    //           "lat": "-14.3990",
-    //           "lng": "-120.7677"
-    //         }
-    //       },
-    //       "phone": "586.493.6943 x140",
-    //       "website": "jacynthe.com",
-    //       "company": {
-    //         "name": "Abernathy Group",
-    //         "catchPhrase": "Implemented secondary concept",
-    //         "bs": "e-enable extensible e-tailers"
-    //       }
-    //     },
-    //     {
-    //       "id": 11,
-    //       "name": "Glenna Reichert",
-    //       "username": "Delphine",
-    //       "email": "Chaim_McDermott@dana.io",
-    //       "address": {
-    //         "street": "Dayna Park",
-    //         "suite": "Suite 449",
-    //         "city": "Bartholomebury",
-    //         "zipcode": "76495-3109",
-    //         "geo": {
-    //           "lat": "24.6463",
-    //           "lng": "-168.8889"
-    //         }
-    //       },
-    //       "phone": "(775)976-6794 x41206",
-    //       "website": "conrad.com",
-    //       "company": {
-    //         "name": "Yost and Sons",
-    //         "catchPhrase": "Switchable contextually-based project",
-    //         "bs": "aggregate real-time technologies"
-    //       }
-    //     },
-    //     {
-    //       "id": 12,
-    //       "name": "Clementina DuBuque",
-    //       "username": "Moriah.Stanton",
-    //       "email": "Rey.Isaac@karina.biz",
-    //       "address": {
-    //         "street": "Kattie Turnpike",
-    //         "suite": "Suite 198",
-    //         "city": "Lebsackbury",
-    //         "zipcode": "31428-2261",
-    //         "geo": {
-    //           "lat": "-38.2386",
-    //           "lng": "57.2232"
-    //         }
-    //       },
-    //       "phone": "024-648-3804",
-    //       "website": "ambrose.net",
-    //       "company": {
-    //         "name": "Hoeger LLC",
-    //         "catchPhrase": "Centralized empowering task-force",
-    //         "bs": "target end-to-end models"
-    //       }
-    //     },
-    //     {
-    //       "id": 13,
-    //       "name": "Jorge Camarillo",
-    //       "username": "jorge.Camarillo",
-    //       "email": "jorge.camarillo@kodemia.mx",
-    //       "address": {
-    //         "street": "Kattie Turnpike",
-    //         "suite": "Suite 198",
-    //         "city": "Lebsackbury",
-    //         "zipcode": "31428-2261",
-    //         "geo": {
-    //           "lat": "-38.2386",
-    //           "lng": "57.2232"
-    //         }
-    //       },
-    //       "phone": "024-648-3804",
-    //       "website": "ambrose.net",
-    //       "company": {
-    //         "name": "Hoeger LLC",
-    //         "catchPhrase": "Centralized empowering task-force",
-    //         "bs": "target end-to-end models"
-    //       }
-    //     },
-    //     {
-    //       "id": 14,
-    //       "name": "Isaac luna",
-    //       "username": "Isaac.luna",
-    //       "email": "isaac.luna@gmail.com",
-    //       "address": {
-    //         "street": "Kattie Turnpike",
-    //         "suite": "Suite 198",
-    //         "city": "Lebsackbury",
-    //         "zipcode": "31428-2261",
-    //         "geo": {
-    //           "lat": "-38.2386",
-    //           "lng": "57.2232"
-    //         }
-    //       },
-    //       "phone": "024-648-3804",
-    //       "website": "ambrose.net",
-    //       "company": {
-    //         "name": "Hoeger LLC",
-    //         "catchPhrase": "Centralized empowering task-force",
-    //         "bs": "target end-to-end models"
-    //       }
-    //     }
-    //   ]
+    let users = [
+        {
+          "id": 1,
+          "name": "Brad Graham",
+          "username": "Bret",
+          "email": "Sincere@april.biz",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "website": "hildegard.org",
+          "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Brad fox",
+          "username": "Bret",
+          "email": "Sincere@april.biz",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "website": "hildegard.org",
+          "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Ervin Howell",
+          "username": "Antonette",
+          "email": "Shanna@melissa.tv",
+          "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+          },
+          "phone": "010-692-6593 x09125",
+          "website": "anastasia.net",
+          "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Clementine Bauch",
+          "username": "Samantha",
+          "email": "Nathan@yesenia.net",
+          "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+          },
+          "phone": "1-463-123-4447",
+          "website": "ramiro.info",
+          "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Patricia Lebsack",
+          "username": "Karianne",
+          "email": "Julianne.OConner@kory.org",
+          "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+              "lat": "29.4572",
+              "lng": "-164.2990"
+            }
+          },
+          "phone": "493-170-9623 x156",
+          "website": "kale.biz",
+          "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Patricia Jones",
+          "username": "Karianne",
+          "email": "Julianne.OConner@kory.org",
+          "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+              "lat": "29.4572",
+              "lng": "-164.2990"
+            }
+          },
+          "phone": "493-170-9623 x156",
+          "website": "kale.biz",
+          "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+          }
+        },
+        {
+          "id": 7,
+          "name": "Chelsey Dietrich",
+          "username": "Kamren",
+          "email": "Lucio_Hettinger@annie.ca",
+          "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+          },
+          "phone": "(254)954-1289",
+          "website": "demarco.info",
+          "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+          }
+        },
+        {
+          "id": 8,
+          "name": "Mrs. Dennis Schulist",
+          "username": "Leopoldo_Corkery",
+          "email": "Karley_Dach@jasper.info",
+          "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+              "lat": "-71.4197",
+              "lng": "71.7478"
+            }
+          },
+          "phone": "1-477-935-8478 x6430",
+          "website": "ola.org",
+          "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+          }
+        },
+        {
+          "id": 9,
+          "name": "Kurtis Weissnat",
+          "username": "Isaac.Skiles",
+          "email": "Telly.Hoeger@billy.biz",
+          "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+              "lat": "24.8918",
+              "lng": "21.8984"
+            }
+          },
+          "phone": "210.067.6132",
+          "website": "elvis.io",
+          "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Nicholas Runolfsdottir V",
+          "username": "Maxime_Nienow",
+          "email": "Sherwood@rosamond.me",
+          "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+              "lat": "-14.3990",
+              "lng": "-120.7677"
+            }
+          },
+          "phone": "586.493.6943 x140",
+          "website": "jacynthe.com",
+          "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Glenna Reichert",
+          "username": "Delphine",
+          "email": "Chaim_McDermott@dana.io",
+          "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+              "lat": "24.6463",
+              "lng": "-168.8889"
+            }
+          },
+          "phone": "(775)976-6794 x41206",
+          "website": "conrad.com",
+          "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Clementina DuBuque",
+          "username": "Moriah.Stanton",
+          "email": "Rey.Isaac@karina.biz",
+          "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+          },
+          "phone": "024-648-3804",
+          "website": "ambrose.net",
+          "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Jorge Camarillo",
+          "username": "jorge.Camarillo",
+          "email": "jorge.camarillo@kodemia.mx",
+          "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+          },
+          "phone": "024-648-3804",
+          "website": "ambrose.net",
+          "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Isaac luna",
+          "username": "Isaac.luna",
+          "email": "isaac.luna@gmail.com",
+          "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+          },
+          "phone": "024-648-3804",
+          "website": "ambrose.net",
+          "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+          }
+        }
+      ]
 
 
-    //   const insertUSers = (arr) => {
+      const insertUSers = (arr) => {
 
-    //     let list = document.querySelector('#list_users')
+        let list = document.querySelector('#list_users')
     
-    //     list.innerHTML = ''
+        list.innerHTML = ''
     
-    //     arr.forEach((user) => {
+        arr.forEach((user) => {
             
-    //         list.innerHTML += `
-    //         <li class="list-group-item d-flex justify-content-between align-items-start bg-secondary bg-gradient rounded-2 border border-1 border-secondary m-2">
-    //         <div class="ms-2 me-auto">
-    //           <div class="fw-bold">${user.name}</div>
-    //             ${user.username}
-    //         </div>
-    //       </li>
+            list.innerHTML += `
+            <li class="list-group-item d-flex justify-content-between align-items-start bg-secondary bg-gradient rounded-2 border border-1 border-secondary m-2">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">${user.name}</div>
+                ${user.username}
+            </div>
+          </li>
        
-    //         `
-    //     })
-    //  }  
+            `
+        })
+     }  
 
  //* Declarar (y probar) una funcion que dado un string, nos filte los usaurios contenido en un array
 // Buscar las coincidencias en los campos -> "name" "username" "email" 
@@ -471,40 +471,40 @@
 
 
 
-// const filterUSers = (str) => {
-//   let strF = str.toLowerCase()
-//   let usuariosFiltrados = users.users.filter((user)=> {
+const filterUSers = (str) => {
+  let strF = str.toLowerCase()
+  let usuariosFiltrados = users.users.filter((user)=> {
 
-//       if(
-//           user.firstName.toLocaleLowerCase().match(strF) ||
-//           user.username.toLocaleLowerCase().match(strF) ||
-//           user.email.toLocaleLowerCase().match(strF)
-//           ) {
-//           return user
-//       }
+      if(
+          user.firstName.toLocaleLowerCase().match(strF) ||
+          user.username.toLocaleLowerCase().match(strF) ||
+          user.email.toLocaleLowerCase().match(strF)
+          ) {
+          return user
+      }
 
-//   })
+  })
 
-//   return usuariosFiltrados
-// }
+  return usuariosFiltrados
+}
 
-// // ? Se hace la construccion de la tabla en HTML con la info del Array original//
+// ? Se hace la construccion de la tabla en HTML con la info del Array original//
 
-// let tableBody = document.querySelector("#table_body")
+let tableBody = document.querySelector("#table_body")
 
-// let tableInfo = users.users.reduce((ac,cv, i)=>{
-// cv = `
-// <tr>
-// <th scope="row">${users.users[i].id}</th>
-// <td>${users.users[i].firstName}</td>
-// <td>${users.users[i].username}</td>
-// <td>${users.users[i].email}</td>
-// </tr>`
-// console.log(ac)
-// return ac+cv
-// },"");
+let tableInfo = users.users.reduce((ac,cv, i)=>{
+cv = `
+<tr>
+<th scope="row">${users.users[i].id}</th>
+<td>${users.users[i].firstName}</td>
+<td>${users.users[i].username}</td>
+<td>${users.users[i].email}</td>
+</tr>`
+console.log(ac)
+return ac+cv
+},"");
 
-// tableBody.innerHTML = tableInfo
+tableBody.innerHTML = tableInfo
 
 
 
@@ -513,195 +513,195 @@
 con el valor del mismo y hacerle console.log() */
 
 // ? Tomando elemento input
-// let input = document.querySelector('.input_text')
+let input = document.querySelector('.input_text')
 
 // ? Tomando elemento boton "buscar"
-// let findInput = document.querySelector('#find_input')
+let findInput = document.querySelector('#find_input')
 
 
 // ? Agregando evento "input" al boton para ejecutar el filtrado cuando se detono el mismo
-// findInput.addEventListener('input', () =>{
-//   let strToFilter = input.value
-//   console.log(strToFilter)
+findInput.addEventListener('input', () =>{
+  let strToFilter = input.value
+  console.log(strToFilter)
 
 
     // ? Ejecutando el filtrado
-//    let result = filterUSers(strToFilter)
+   let result = filterUSers(strToFilter)
 
 
 
     // ? Imprimiendo el resultado en consola 
-//    console.log(result)
+   console.log(result)
 
 
     // ? Con esta funcion se reconstruye la tabla con el filtrado de texto   
-//    let tableInfofiltered = result.reduce((ac,cv, i)=>{
-//     cv = `
-//     <tr>
-//     <th scope="row">${result[i].id}</th>
-//     <td>${result[i].firstName}</td>
-//     <td>${result[i].username}</td>
-//     <td>${result[i].email}</td>
-//     </tr>`
-//     console.log(ac)
-//     return ac+cv
-//     },"");
-//     tableBody.innerHTML = tableInfofiltered
-// })
+   let tableInfofiltered = result.reduce((ac,cv, i)=>{
+    cv = `
+    <tr>
+    <th scope="row">${result[i].id}</th>
+    <td>${result[i].firstName}</td>
+    <td>${result[i].username}</td>
+    <td>${result[i].email}</td>
+    </tr>`
+    console.log(ac)
+    return ac+cv
+    },"");
+    tableBody.innerHTML = tableInfofiltered
+})
 
 
-// function AJAX () {
-//     const http = new XMLHttpRequest ();
-//     const url = `http://127.0.0.1:5501/JV.js/index2.html`
+function AJAX () {
+    const http = new XMLHttpRequest ();
+    const url = `http://127.0.0.1:5501/JV.js/index2.html`
 
-//     http.onreadystatechange = function () {
-//         if(this.readyState == 4 && this.status == 200){
-//             console.log(this.responseText);
-//             document.getElementById('response').innerHTML = this.responseText
-//         }
-//     }
+    http.onreadystatechange = function () {
+        if(this.readyState == 4 && this.status == 200){
+            console.log(this.responseText);
+            document.getElementById('response').innerHTML = this.responseText
+        }
+    }
 
-//     http.open('GET', url);
-//     http.send();
-// }
-// document.getElementById('boton').addEventListener('click', function() {
-//     AJAX();
-// })
+    http.open('GET', url);
+    http.send();
+}
+document.getElementById('boton').addEventListener('click', function() {
+    AJAX();
+})
 
 //todo CREANDO UN REQUEST 
 
 // 1 se crea una nueva y se almacena en una variable 
 
-// const httpRequest = new XMLHttpRequest() //esto es un Request
+const httpRequest = new XMLHttpRequest() //esto es un Request
 
-// console.log(httpRequest) // Hacemos un cosonsole.log para verificar que este bien
+console.log(httpRequest) // Hacemos un cosonsole.log para verificar que este bien
 
 // 2 Definir nuestro metodo onload 
-// let result = []
-// httpRequest.onload = (e) => {
-//     // console.log(e)
-//     result = JSON.parse(e.target.responseText)
-// }
+let result = []
+httpRequest.onload = (e) => {
+    // console.log(e)
+    result = JSON.parse(e.target.responseText)
+}
 
-// httpRequest.open('GET', 'url', false)
+httpRequest.open('GET', 'url', false)
 
-// httpRequest.send();
+httpRequest.send();
 
 
 // Crear un nuevo archivo HTML se llame POST.html
 // Meter un Card Grid desde bootstrap 
 // Ir a Doomy y tomar  post 
-// const Post = (url) => {
-//     const http = new XMLHttpRequest ();
-//     // const url = `http://127.0.0.1:5501/JV.js/index2.html`
-//     let result = []
-//     http.onload = (data)=> {
-//         console.log(data.target.responseText)
-//         result = JSON.parse(data.target.responseText)
-//     }
-//     http.open('GET',url, false );
+const Post = (url) => {
+    const http = new XMLHttpRequest ();
+    // const url = `http://127.0.0.1:5501/JV.js/index2.html`
+    let result = []
+    http.onload = (data)=> {
+        console.log(data.target.responseText)
+        result = JSON.parse(data.target.responseText)
+    }
+    http.open('GET',url, false );
    
-//     http.send();
+    http.send();
 
-//     return result
-// }
-// let postDummy = Post (`https://dummyjson.com/posts`)
-// postDummy = postDummy.Post
+    return result
+}
+let postDummy = Post (`https://dummyjson.com/posts`)
+postDummy = postDummy.Post
 //// https://dummyjson.com/posts
 
 
 //! Crear un Usuario con AJAX 
 
-// const createUser = (user)  => {
-//     const httpRequest = new XMLHttpRequest ()
-//     httpRequest.onload = (e) => {
-//         console.log(e.target.responseText)
-//     }
-//     httpRequest.open("POST", 'https://kodemia-20g-js-default-rtdb.firebaseio.com/.json', false)
+const createUser = (user)  => {
+    const httpRequest = new XMLHttpRequest ()
+    httpRequest.onload = (e) => {
+        console.log(e.target.responseText)
+    }
+    httpRequest.open("POST", 'https://kodemia-20g-js-default-rtdb.firebaseio.com/.json', false)
 
-//     let userJson = JSON.stringify(user)
-//     httpRequest.send(userJson)
+    let userJson = JSON.stringify(user)
+    httpRequest.send(userJson)
 
 
-// }
+}
 
-// const userCreate = {
-//     firstName: 'Fer',
-//     lastName: 'mar'
-// }
-// createUser(userCreate)
+const userCreate = {
+    firstName: 'Fer',
+    lastName: 'mar'
+}
+createUser(userCreate)
 // ! Crear un usario con AJAX 
 
-//~ const createUser = (user) => {
-//~     const httRequest = new XMLHttpRequest()
+// ~ const createUser = (user) => {
+// ~     const httRequest = new XMLHttpRequest()
 
-//~     httRequest.onload = (e) => {
-//~         console.log(e.target.responseText)
-//~     }
+// ~     httRequest.onload = (e) => {
+// ~         console.log(e.target.responseText)
+// ~     }
 
-//~     httRequest.open("POST", 'https://kodemia-g20-default-rtdb.firebaseio.com/koders.json', false)
+// ~     httRequest.open("POST", 'https://kodemia-g20-default-rtdb.firebaseio.com/koders.json', false)
 
-//~     let userJson = JSON.stringify(user)
+// ~     let userJson = JSON.stringify(user)
 
-//~     httRequest.send(userJson)
-//~ }
+// ~     httRequest.send(userJson)
+// ~ }
 
 
-//~ const userToCreate = {
-//~    firstName: "Sebastian",
-//~     lastName: "V."
-//~ }
+// ~ const userToCreate = {
+// ~    firstName: "Sebastian",
+// ~     lastName: "V."
+// ~ }
 
-//~ createUser(userToCreate)
+// ~ createUser(userToCreate)
 
 // En su propio BD 
 // Crear uns subdirectorio llamada "post" 
 // Y este crear al menos 10 post 
 // con la siguiente estructura -> titulo - Body - date
 
-// const Post = (posts) => {
-//     const httpRequest = new XMLHttpRequest()
-//     httpRequest.onload = (e) => {
-//         console.log(e.target.responseText);
-//     }
-//     httpRequest.open("POST", 'https://kodemia-20g-js-default-rtdb.firebaseio.com/.json', false)
-//     let postsJson = JSON.stringify(posts)
-//     httpRequest.send(postsJson) 
-// }
+const post = (posts) => {
+    const httpRequest = new XMLHttpRequest()
+    httpRequest.onload = (e) => {
+        console.log(e.target.responseText);
+    }
+    httpRequest.open("POST", 'https://kodemia-20g-js-default-rtdb.firebaseio.com/.json', false)
+    let postsJson = JSON.stringify(posts)
+    httpRequest.send(postsJson) 
+}
 
-// const createPost = {
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22',
-//     titulo: 'Titulo',
-//     body: 'Informacion',
-//     date:'27-07-22'
-// }
-// Post(createPost)
+const createPost = {
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22',
+    titulo: 'Titulo',
+    body: 'Informacion',
+    date:'27-07-22'
+}
+post(createPost)
 
 //todo-- UPDATE DATA   - PUT ( actualiza la data )
 
@@ -719,7 +719,7 @@ con el valor del mismo y hacerle console.log() */
 //     firstName : 'Bastian',
 //     lastName : 'V.'
 // }
-// updateData(newData)
+updateData(newData)
 
 //TODO ---- PATCH - Update Parcial
 
@@ -758,3 +758,111 @@ con el valor del mismo y hacerle console.log() */
 // }
 // deleteData(newData)
 
+
+
+
+
+//! Tarea de Insert post 
+
+let template = '' 
+for (post in postToRender) {
+    console.log(post)
+    template += 
+    `<div class='col'>
+    <div class='card border-secondary'>
+    <img src='https://picsum.photos/1000'
+    class='card-img-top' alt='img' width='400' height='400'/>
+    <h5 class='card-title'>${postToRender[post].title}</h5>
+    <p class='card-text'>
+    ${postToRender[post].body}
+    </p>
+    <hr>
+    <div class='d-flex justifay-content-between p-2'>
+    <a href='index2.html?postId=${post}'>
+    <button type='button' class='btn btn-primary'>Detalle</button>
+    </a>
+    </div>
+    </div>
+    </div>
+    `
+}
+
+//TODO Query params = hace referencia a los parametros de la URL 
+    //^ query params ? teste=test
+    //? Estructura es de llaves y valores (asociados a esa llave)
+
+//* ?test=test&limit=5&num=10
+
+let postToRender = getData('url')
+
+let postsHolder = document.querySelector('.post_holder')
+
+const insertPost = (post) => {
+
+    let template = ''
+    console
+    for (post in postToRender) {
+
+        template +=  `
+                <div class="col">
+                    <div class="card border-secondary">
+                        <img src="https://picsum.photos/1000" class="card-img-top" alt="img" width="400" height="400" />
+                        <div class="card-body">
+                            <h5 class="card-title">${postToRender[post].title}</h5>
+                            <p class="card-text">
+                                ${postToRender[post].body}
+                            </p>
+                            <hr>
+                            <div class="d-flex justify-content-between p-2">
+                            <strong>${postToRender[post].date}</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `
+    }
+    
+    postsHolder.innerHTML = template
+}
+
+
+
+// De alguna forma insertar id en url -> Done 
+// De alguna forma leer el id del post del url  -> Done
+//! Cargar la data del post al cargar la pagina 
+
+
+// ? functionToGetData(url){
+    // codigo 
+// } 
+
+
+let queryURL = window.location.search
+let postId = queryURL.substring(8)
+// let params = new URLSearchParams(window.location.search)
+// let postId = params.get('postId')
+
+let url = `https://kodemia-g20-default-rtdb.firebaseio.com/posts/${postId}.json`
+
+//! Hacer el request con el metdoo get del post selccionado y isertarla en mi template 
+
+console.log(url)
+
+let cardHolder = document.querySelector('.card_holder')
+
+document.addEventListener("DOMContentLoaded", (e)=> {
+    cardHolder.innerHTML = `
+    <div class="card mb-3 mt-5 w-75">
+    <img src="https://picsum.photos/1000" class="card-img-top mt-2" alt="img"  height="300"  width="500"  />
+    <div class="card-body">
+    <h5 class="card-title">Dummy Post Title</h5>
+    <p class="card-text">
+       Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy Dummy 
+    </p>
+    <p class="card-text">
+        <small class="text-muted">Dummy date</small>
+    </p>
+    </div>
+    </div> 
+    `
+})

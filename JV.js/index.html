@@ -9,62 +9,56 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>JS</title>
 </head>
-<body style="background-color:darkolivegreen">
-    <h1>JavaScript</h1>
-
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index2.html">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <div class="row">
         <input
-        id="find_input"
           type="text"
           class="form-control input_text"
           placeholder="Buscan coincidencia"
           aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-default"
         />
-        <button class="mt-4 search-button btn btn-primary find_user" >
+        <button class="mt-4 search-button btn btn-primary find_user">
           Buscar
         </button>
 
         <div>
           <ul id="list_users" class="mt-3" list-group list-group-flush>
             <!-- Inseter -->
-
-
           </ul>
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Id</th>
-                <th scope="col">Name</th>
-                <th scope="col">User</th>
-                <th scope="col">Email</th>
-              </tr>
-            </thead>
-            <tbody id="table_body">
-
-            </tbody>
-          </table>
         </div>
       </div>
-    </div> 
+    </div>
 
+  
+  <a href="http://127.0.0.1:5501/JV.js/index2.html">Index2</a>
 
-    <a href="http://127.0.0.1:5501/JV.js/index2.html">Index2</a>
-
-<!-- <button id="boton"> Cargar sitio</button> -->
-
-<!-- <div id="response"> Capa de Response  -->
-
-<!-- </div>
-
-
-
-
-JavaScript Bundle with Popper
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>   
-<!-- <script src="/JV.js/class-14.js"></script> -->
-     <!-- <script src="/JV.js/class-13.js"></script> -->
-      <script src="/JV.js/class-15.js"></script>
-    </body>
+  <script src="/JV.js/class-15.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
 </html>
+
